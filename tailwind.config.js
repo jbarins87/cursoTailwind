@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'bounce-slow': 'bounce 3s ease-in-out infinite',
+      }
+    },
   },
   plugins: [],
 }
