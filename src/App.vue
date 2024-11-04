@@ -27,6 +27,8 @@
   <div class="container bg-indigo-400 m-4 border-4 border-purple-500 border-box p-10">Container 2</div>
   <div class="container bg-pink-200 m-4 border-4 border-pink-800 box-content p-10">Container 3</div>
   <!--Container Box-->
+  <br>
+  <hr>
 
   <!--Display Box-->
   <div class="container space-y-1 text-center m-auto">
@@ -36,6 +38,8 @@
     <span class="block w-48 m-auto bg-red-300 p-1 rounded-md">Block</span>
   </div>
   <!--Display Box-->
+  <br>
+  <hr>
 
   <!--Floats e Clear-->
   <div class="container m-auto mt-2 text-center bg-red-200 p-2">
@@ -44,6 +48,8 @@
     <div class="inline-block float-end bg-green-200 p-2 m-1 shadow-lg">Exercício 3 - Float End</div>
   </div>
   <!--Floats e Clear-->
+  <br>
+  <hr>
 
   <!--Overflow-->
   <div class="overflow-hidden h-16 m-6 bg-red-300">
@@ -79,6 +85,8 @@
     <p>Testando overflow y-auto </p>
   </div>
   <!--Overflow-->
+  <br>
+  <hr>
 
   <!--Positions-->
   <div class="relative bg-pink-300 h-20 p-2 uppercase font-bold">
@@ -94,6 +102,8 @@
     </div>
   </div>
   <!--Positions-->
+  <br>
+  <hr>
 
   <!--Visibility Hidden e Invisible-->
   <div class="container bg-teal-200">
@@ -106,6 +116,8 @@
   <p class="m-2 font-medium uppercase invisible">Espaço</p>
   <p class="m-2 font-medium uppercase visible">Espaço</p>
   <!--Visibility-->
+  <br>
+  <hr>
 
   <!--Z Index-->
   <div class="container relative bg-orange-100 mb-48 mt-4 text-sm text-right">
@@ -114,6 +126,8 @@
     <div class="bg-orange-500 h-12 w-20 p-2 absolute m-20 shadow-md rounded-lg">Atrás</div>
   </div>
   <!--Z Index-->
+  <br>
+  <hr>
 
   <!--Flex Col e Row-->
   <div class="flex flex-row bg-red-300">
@@ -155,16 +169,21 @@
     </div>
   </div>
   <!--Flex Col e Row-->
+  <br>
+  <hr>
 
   <!--Flew Wrap-->
   <div class="bg-red-100 flex flex-wrap mt-2 p-1 justify-center">
-    <div class="bg-pink-300 p-2 rounded-md m-2">Exercícios</div>
-    <div class="bg-pink-400 p-2 rounded-md m-2">Exercícios</div>
-    <div class="bg-pink-500 p-2 rounded-md m-2">Exercícios</div>
-    <div class="bg-pink-600 p-2 rounded-md m-2">Exercícios</div>
-    <div class="bg-pink-700 p-2 rounded-md m-2">Exercícios</div>
+    <div class="bg-pink-200 p-2 px-3 py-1 rounded-md m-2">Flex-Wrap</div>
+    <div class="bg-pink-300 p-2 px-3 py-1 rounded-md m-2">01</div>
+    <div class="bg-pink-400 p-2 px-3 py-1 rounded-md m-2">02</div>
+    <div class="bg-pink-500 p-2 px-3 py-1 rounded-md m-2">03</div>
+    <div class="bg-pink-600 p-2 px-3 py-1 rounded-md m-2">04</div>
+    <div class="bg-pink-700 p-2 px-3 py-1 rounded-md m-2">05</div>
   </div>
   <!--Flew Wrap-->
+  <br>
+  <hr>
 
   <!--Flex container stratch-->
   <div class="flex container bg-green-400 p-4 mt-4 text-center m-auto uppercase font-medium">
@@ -173,10 +192,61 @@
     <div class="bg-green-100 flex-none">Flex-none</div>
   </div>
   <!--Flex container-->
+  <br>
+  <hr>
+
+  <!--Order-->
+  <div class="bg-purple-100 flex flex-wrap mt-2 p-1 justify-center text-white text-center">
+    <div class="bg-purple-300 px-3 py-1 w-32 rounded-md m-2 order-last"><p>01</p> (order-last)</div>
+    <div class="bg-purple-400 px-3 py-1 w-32 rounded-md m-2 order-5"><p>02</p> (order-5)</div>
+    <div class="bg-purple-500 px-3 py-1 w-32 rounded-md m-2 order-4"><p>03</p> (order-4)</div>
+    <div class="bg-purple-600 px-3 py-1 w-32 rounded-md m-2 order-3"><p>04</p> (order-3)</div>
+    <div class="bg-purple-700 px-3 py-1 w-32 rounded-md m-2 order-2"><p>05</p> (order-2)</div>
+    <div class="bg-purple-800 px-3 py-1 w-32 rounded-md m-2 order-first"><p>06</p> (order-first)</div>
+  </div>
+
+  <div class="container flex flex-wrap mt-2 bg-gray-600 rounded-md justify-center m-auto shadow-lg">
+    <div class="bg-gray-200 p-2 rounded-md m-2 font-bold px-3 py-1 shadow-inner lg:order-last">01</div>
+    <div class="bg-gray-200 p-2 rounded-md m-2 font-bold px-3 py-1 shadow-inner lg:order-2">02</div>
+    <div class="bg-gray-200 p-2 rounded-md m-2 font-bold px-3 py-1 shadow-inner lg:order-first">03</div>
+  </div>
+  <!--Order-->
+  <br>
+  <hr>
+  <br>
+  <!--Grid Col-->
+  <p class="text-lg font-bold uppercase text-center bg-white/40">grid com 3 colunas</p>
+  <div class="m-auto grid grid-cols-3 bg-white text-center gap-2 p-2">
+    <div class="bg-orange-200 rounded-md shadow-md">1</div>
+    <div class="bg-orange-300 rounded-md shadow-md">2</div>
+    <div class="bg-orange-400 rounded-md shadow-md">3</div>
+    <div class="bg-orange-500 rounded-md shadow-md">4</div>
+  </div>
+  <div class="grid grid-cols-2 bg-orange-500 text-center gap-2 p-2 font-semibold">
+    <div class="bg-gray-400 border-2 border-white/50 rounded-md">1</div>
+    <div class="bg-gray-400 border-2 border-white/50 rounded-md">2</div>
+  </div>
+  <br>
+  <div class="container grid grid-cols-3 bg-lime-200 text-center font-bold gap-2 p-2 rounded-md m-auto">
+    <div class="bg-lime-500 rounded-md shadow-md">1</div>
+    <div class="bg-lime-600 rounded-md shadow-md">2</div>
+    <div class="bg-lime-700 rounded-md shadow-md">3</div>
+    <div class="bg-lime-500 rounded-md shadow-md">4</div>
+    <div class="bg-lime-600 rounded-md shadow-md">5</div>
+    <div class="bg-lime-700 rounded-md shadow-md">6</div>
+    <div class="bg-lime-500 rounded-md shadow-md">7</div>
+    <div class="bg-lime-600 rounded-md shadow-md">8</div>
+    <div class="bg-lime-700 rounded-md shadow-md">9</div>
+  </div>
+  <!--Grid Col-->
+  <br>
+  <hr>
+  <br>
 
 
 
-  <HelloWorld msg="Vite + Vue" />
+
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <script setup>
